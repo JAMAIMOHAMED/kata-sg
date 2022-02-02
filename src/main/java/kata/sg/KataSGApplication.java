@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class BankAccountKataApplication {
+public class KataSGApplication {
 
 	@Bean
 	public ModelMapper modelMapper() {
@@ -14,7 +14,7 @@ public class BankAccountKataApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankAccountKataApplication.class, args);
+		SpringApplication.run(KataSGApplication.class, args);
 	}
 
 }
